@@ -39,24 +39,29 @@ for item in project_list:
 #         for link in item['githubLinks']:
 #             project_list[name] = link
 
-print(project_list)
-print(len(project_list))
-print('---')
+# print(project_list)
+# print(len(project_list))
+# print('---')
 
 for project in project_list:
-    print(project)
+    # print(project)
     # print(project['githubLinks'])
     # try org
     try:
-        name = g.get_organization(project['name'])
+        print(project['name'])
+        org = g.get_organization(project['name'])
+        repos = org.get_repos()
+        for repo in repos:
+            print(repo)
+            print(repo.get_license())
     except UnknownObjectException:
         # try user
         try:
-            name = g.get_repo(project['name'])
+            repo = g.get_repo(project['name'])
         except UnknownObjectException:
             # try repo
             try:
-                name = g.get_user(project['name'])
+                user = g.get_user(project['name'])
                 # print(f"{name} is USER!")
             except UnknownObjectException:
                 # print(name)
@@ -64,9 +69,9 @@ for project in project_list:
                 # print("Isn't any type.")
                 project_list.remove(project)
 
-print('---')
-print(project_list)
-print(len(project_list))
+# print('---')
+# print(project_list)
+# print(len(project_list))
 
 # for i, k in json_list.items():
 #     print(i, "-", k)
