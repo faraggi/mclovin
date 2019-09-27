@@ -20,8 +20,8 @@ PROJECTS = eval(open("test.json").read())
 LICENSES = eval(open("licenses").read())
 
 # test data and real data
-with open('test.json') as test_json: 
-    test_data = json.load(test_json)
+with open('github-projects-list.json') as complete_list: 
+    real_data = json.load(complete_list)
 
 test_data = '''
 {
@@ -93,11 +93,12 @@ test_data = '''
 # }
 # ''' 
 
-test_data = eval(test_data)
+json_data = eval(test_data)
 # pprint.pprint(test_data)
 
-project_list = test_data['data']['allProjects']
-project_list = test_data['data']['allProjects']
+# tmp or real data choice:
+project_list = real_data['data']['allProjects']
+# project_list = json_data['data']['allProjects']
 
 # print(project_list)
 # print(len(project_list))

@@ -26,6 +26,10 @@
         "name": "0xcert Protocol"
       },
       {
+        "githubLinks": [],
+        "name": "12Ships"
+      },
+      {
         "githubLinks": [
           "https://github.com/1irstcoin"
         ],
@@ -42,6 +46,10 @@
         "name": "1World"
       },
       {
+        "githubLinks": [],
+        "name": "3DCoin"
+      },
+      {
         "githubLinks": [
           "https://github.com/aave",
           "https://github.com/ETHLend"
@@ -53,6 +61,10 @@
           "https://github.com/alibabacoin"
         ],
         "name": "ABBC Coin"
+      },
+      {
+        "githubLinks": [],
+        "name": "Abra"
       },
       {
         "githubLinks": [
@@ -183,7 +195,9 @@
         "name": "Aeternity"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/tanogedler"
+        ],
         "name": "AgaveCoin"
       },
       {
@@ -193,7 +207,9 @@
         "name": "Agrello"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/agrodex"
+        ],
         "name": "Agrocoin"
       },
       {
@@ -242,6 +258,12 @@
       },
       {
         "githubLinks": [],
+        "name": "Aitheon"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/akropolisio"
+        ],
         "name": "Akropolis"
       },
       {
@@ -307,6 +329,10 @@
           "https://github.com/ambrosus"
         ],
         "name": "Ambrosus"
+      },
+      {
+        "githubLinks": [],
+        "name": "Amino Network"
       },
       {
         "githubLinks": [
@@ -618,6 +644,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/bandprotocol"
+        ],
+        "name": "Band Protocol"
+      },
+      {
+        "githubLinks": [
           "https://github.com/bankera-token"
         ],
         "name": "Bankera"
@@ -684,6 +716,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/bhexopen"
+        ],
+        "name": "BHEX Token"
+      },
+      {
+        "githubLinks": [
           "https://github.com/bhpcash"
         ],
         "name": "BHPCash"
@@ -697,6 +735,12 @@
           "https://github.com/bibox365"
         ],
         "name": "Bibox Token"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/bidipasscompany"
+        ],
+        "name": "BidiPass"
       },
       {
         "githubLinks": [],
@@ -724,6 +768,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/paxosglobal"
+        ],
+        "name": "Binance USD"
+      },
+      {
+        "githubLinks": [
           "https://github.com/catjuicy"
         ],
         "name": "BingoCoin"
@@ -745,8 +795,16 @@
         "name": "Birake"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/birdchain"
+        ],
         "name": "Birdchain"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/bisq-network"
+        ],
+        "name": "Bisq"
       },
       {
         "githubLinks": [],
@@ -813,7 +871,9 @@
         "name": "bitcoin2network"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/bitcoin-atom"
+        ],
         "name": "Bitcoin Atom"
       },
       {
@@ -839,6 +899,10 @@
           "https://github.com/eveybcd"
         ],
         "name": "Bitcoin Diamond"
+      },
+      {
+        "githubLinks": [],
+        "name": "Bitcoin Fast"
       },
       {
         "githubLinks": [
@@ -920,6 +984,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/bitforexapi"
+        ],
+        "name": "BitForex Token"
+      },
+      {
+        "githubLinks": [
           "https://github.com/bitguildplatform"
         ],
         "name": "BitGuild PLAT"
@@ -945,7 +1015,9 @@
         "name": "Bitmax Token"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/bit-nation"
+        ],
         "name": "Bitnation"
       },
       {
@@ -953,6 +1025,12 @@
           "https://github.com/bitnew-chain"
         ],
         "name": "BitNewChain"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/bitpay"
+        ],
+        "name": "BitPay"
       },
       {
         "githubLinks": [
@@ -1100,6 +1178,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/blockstack"
+        ],
+        "name": "Blockstack"
+      },
+      {
+        "githubLinks": [
           "https://github.com/blockstamp"
         ],
         "name": "BlockStamp"
@@ -1190,6 +1274,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/BonusCloud"
+        ],
+        "name": "BonusCloud"
+      },
+      {
+        "githubLinks": [
           "https://github.com/cryptozoidberg"
         ],
         "name": "Boolberry"
@@ -1205,7 +1295,9 @@
         "name": "BORA"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/bpfkorea"
+        ],
         "name": "BOSAGORA"
       },
       {
@@ -1356,6 +1448,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/bzxnetwork"
+        ],
+        "name": "bZx"
+      },
+      {
+        "githubLinks": [
           "https://github.com/andreasfink"
         ],
         "name": "Cajutel"
@@ -1493,6 +1591,10 @@
         "name": "Centrality"
       },
       {
+        "githubLinks": [],
+        "name": "Cere Network"
+      },
+      {
         "githubLinks": [
           "https://github.com/crowdgenie"
         ],
@@ -1505,7 +1607,9 @@
         "name": "ChainLink"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/chainx-org"
+        ],
         "name": "ChainX"
       },
       {
@@ -1523,6 +1627,12 @@
           "https://github.com/openchatproject"
         ],
         "name": "ChatCoin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/neapolitanswaps"
+        ],
+        "name": "Cherry Swap"
       },
       {
         "githubLinks": [],
@@ -1613,7 +1723,9 @@
         "name": "Cobrabytes"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/cocos-bcx"
+        ],
         "name": "Cocos-BCX"
       },
       {
@@ -1639,7 +1751,9 @@
         "name": "Coin Lion"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/coinmetro"
+        ],
         "name": "CoinMetro"
       },
       {
@@ -1671,6 +1785,10 @@
         "name": "Coinvest"
       },
       {
+        "githubLinks": [],
+        "name": "Coinzo Token"
+      },
+      {
         "githubLinks": [
           "https://github.com/colored-coins"
         ],
@@ -1696,6 +1814,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/compound-finance"
+        ],
+        "name": "Compound"
+      },
+      {
+        "githubLinks": [
           "https://github.com/conciergecoin"
         ],
         "name": "Concierge Coin"
@@ -1717,6 +1841,10 @@
           "https://github.com/connectingcoin"
         ],
         "name": "Connect Coin"
+      },
+      {
+        "githubLinks": [],
+        "name": "Connext"
       },
       {
         "githubLinks": [],
@@ -1847,7 +1975,9 @@
         "name": "Cred"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/the-terra-foundation"
+        ],
         "name": "CREDIT"
       },
       {
@@ -1927,12 +2057,24 @@
         "name": "CRYPTO20"
       },
       {
+        "githubLinks": [
+          "https://github.com/aeronaero"
+        ],
+        "name": "CryptoBonusMiles"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/cronfoundation"
+        ],
+        "name": "Cryptocean"
+      },
+      {
         "githubLinks": [],
         "name": "Crypto.com"
       },
       {
         "githubLinks": [],
-        "name": "Crypto.com Chain"
+        "name": "Crypto.com Coin"
       },
       {
         "githubLinks": [],
@@ -1945,7 +2087,9 @@
         "name": "Crypto improvement fund"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/phenom-company"
+        ],
         "name": "Cryptoindex.com 100"
       },
       {
@@ -1967,7 +2111,9 @@
         "name": "Cryptopay"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/cvccverifycoin"
+        ],
         "name": "CryptoVerificationCoin"
       },
       {
@@ -2164,7 +2310,7 @@
       },
       {
         "githubLinks": [
-          "https://github.com/decentfoundation	"
+          "https://github.com/decentfoundation"
         ],
         "name": "Decent"
       },
@@ -2187,6 +2333,12 @@
         "name": "Decentralized Machine Learning"
       },
       {
+        "githubLinks": [
+          "https://github.com/dvpnet"
+        ],
+        "name": "Decentralized Vulnerability Platform"
+      },
+      {
         "githubLinks": [],
         "name": "Decimated"
       },
@@ -2201,7 +2353,9 @@
         "name": "DeepBrain Chain"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/deepcloud-ai"
+        ],
         "name": "DeepCloud AI"
       },
       {
@@ -2209,6 +2363,12 @@
           "https://github.com/thedeex"
         ],
         "name": "DEEX"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/defilab"
+        ],
+        "name": "Defi"
       },
       {
         "githubLinks": [
@@ -2274,6 +2434,18 @@
       },
       {
         "githubLinks": [
+          "https://github.com/dforcenetwork"
+        ],
+        "name": "dForce"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/dharmaprotocol"
+        ],
+        "name": "Dharma"
+      },
+      {
+        "githubLinks": [
           "https://github.com/cdiamondcoin"
         ],
         "name": "Diamond Platform Token"
@@ -2297,6 +2469,14 @@
           "https://github.com/granddream"
         ],
         "name": "Digital Asset Guarantee Token"
+      },
+      {
+        "githubLinks": [],
+        "name": "DigitalBits"
+      },
+      {
+        "githubLinks": [],
+        "name": "Digital Fantasy Sports"
       },
       {
         "githubLinks": [
@@ -2408,6 +2588,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/Dragonexio"
+        ],
+        "name": "Dragon Token"
+      },
+      {
+        "githubLinks": [
           "https://github.com/dreamteamgg"
         ],
         "name": "DreamTeam"
@@ -2435,7 +2621,9 @@
         "name": "DUO Network"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/dusk-network"
+        ],
         "name": "Dusk Network"
       },
       {
@@ -2447,6 +2635,12 @@
           "https://github.com/dxchainnetwork"
         ],
         "name": "DxChain"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/dydxprotocol"
+        ],
+        "name": "dYdX"
       },
       {
         "githubLinks": [],
@@ -2484,10 +2678,16 @@
       },
       {
         "githubLinks": [],
-        "name": "Ecoreal Estate"
+        "name": "Echoin"
       },
       {
         "githubLinks": [],
+        "name": "Ecoreal Estate"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/edcblockchain"
+        ],
         "name": "EDC Blockchain"
       },
       {
@@ -2597,7 +2797,9 @@
         "name": "Elite"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/elrondnetwork"
+        ],
         "name": "Elrond"
       },
       {
@@ -2611,6 +2813,18 @@
           "https://github.com/emercoin"
         ],
         "name": "Emercoin"
+      },
+      {
+        "githubLinks": [],
+        "name": "Eminer"
+      },
+      {
+        "githubLinks": [],
+        "name": "Emirex Token"
+      },
+      {
+        "githubLinks": [],
+        "name": "EMOGI Network"
       },
       {
         "githubLinks": [],
@@ -2633,7 +2847,9 @@
         "name": "Endorsit"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/enecuum"
+        ],
         "name": "Enecuum"
       },
       {
@@ -2665,6 +2881,12 @@
           "https://github.com/enjin"
         ],
         "name": "Enjin Coin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/entanmo"
+        ],
+        "name": "En-Tan-Mo"
       },
       {
         "githubLinks": [],
@@ -2927,6 +3149,10 @@
         "name": "Fabric Token"
       },
       {
+        "githubLinks": [],
+        "name": "FABRK"
+      },
+      {
         "githubLinks": [
           "https://github.com/faceterteam"
         ],
@@ -2992,6 +3218,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/fibosio"
+        ],
+        "name": "FIBOS"
+      },
+      {
+        "githubLinks": [
           "https://github.com/fiiilab"
         ],
         "name": "Fiii"
@@ -3031,7 +3263,9 @@
         "name": "Flash"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/fletaio"
+        ],
         "name": "FLETA"
       },
       {
@@ -3085,7 +3319,9 @@
         "name": "FootballCoin"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/theforceprotocolgroup"
+        ],
         "name": "Force Protocol"
       },
       {
@@ -3206,6 +3442,10 @@
       },
       {
         "githubLinks": [],
+        "name": "GAPS"
+      },
+      {
+        "githubLinks": [],
         "name": "Gas"
       },
       {
@@ -3215,7 +3455,9 @@
         "name": "Gatcoin"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/gatechain"
+        ],
         "name": "Gatechain Token"
       },
       {
@@ -3245,7 +3487,9 @@
         "name": "Genesis Vision"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/gexanlottery"
+        ],
         "name": "Gexan"
       },
       {
@@ -3352,6 +3596,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/gomics"
+        ],
+        "name": "Gomics"
+      },
+      {
+        "githubLinks": [
           "https://github.com/gonetwork-project"
         ],
         "name": "GoNetwork"
@@ -3363,7 +3613,9 @@
         "name": "GoPower"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/gowithmi"
+        ],
         "name": "GoWithMi"
       },
       {
@@ -3482,6 +3734,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/hashgraph"
+        ],
+        "name": "Hedera Hashgraph"
+      },
+      {
+        "githubLinks": [
           "https://github.com/rublixdev"
         ],
         "name": "HedgeTrade"
@@ -3505,7 +3763,9 @@
         "name": "HelloGold"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/anonymousdo"
+        ],
         "name": "Helpico"
       },
       {
@@ -3668,6 +3928,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/hyperspeednetwork"
+        ],
+        "name": "Hyper Speed Network"
+      },
+      {
+        "githubLinks": [
           "https://github.com/hypnoxys"
         ],
         "name": "HYPNOXYS"
@@ -3731,7 +3997,9 @@
         "name": "ILCoin"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/mceme"
+        ],
         "name": "ImageCoin"
       },
       {
@@ -3821,6 +4089,12 @@
       {
         "githubLinks": [],
         "name": "Insights Network"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/instadapp"
+        ],
+        "name": "InstaDApp"
       },
       {
         "githubLinks": [
@@ -4111,10 +4385,18 @@
         "name": "Kora Network Token"
       },
       {
+        "githubLinks": [],
+        "name": "Krios"
+      },
+      {
         "githubLinks": [
           "https://github.com/cryptense"
         ],
         "name": "Kryll.io"
+      },
+      {
+        "githubLinks": [],
+        "name": "Krypton Galaxy"
       },
       {
         "githubLinks": [],
@@ -4147,6 +4429,12 @@
           "https://github.com/labhcoin"
         ],
         "name": "Labh Coin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/laddernetwork"
+        ],
+        "name": "Ladder Network Token"
       },
       {
         "githubLinks": [
@@ -4215,7 +4503,9 @@
         "name": "Level Up Coin"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/levl-llc"
+        ],
         "name": "Levolution"
       },
       {
@@ -4229,6 +4519,12 @@
           "https://github.com/lbtcio"
         ],
         "name": "Lightning Bitcoin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/lightningnetwork"
+        ],
+        "name": "Lightning Network"
       },
       {
         "githubLinks": [
@@ -4263,7 +4559,9 @@
         "name": "LinkEye"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/lianxiangcloud"
+        ],
         "name": "LinkToken"
       },
       {
@@ -4307,6 +4605,12 @@
           "https://github.com/lition-blockchain"
         ],
         "name": "Lition"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/livenodescoin"
+        ],
+        "name": "Livenodes"
       },
       {
         "githubLinks": [
@@ -4391,6 +4695,10 @@
         "name": "Lucky Block Network"
       },
       {
+        "githubLinks": [],
+        "name": "Lukki"
+      },
+      {
         "githubLinks": [
           "https://github.com/lunyr"
         ],
@@ -4465,6 +4773,12 @@
         "name": "Marginless"
       },
       {
+        "githubLinks": [
+          "https://github.com/marketprotocol"
+        ],
+        "name": "MARKET Protocol"
+      },
+      {
         "githubLinks": [],
         "name": "MARK.SPACE"
       },
@@ -4533,7 +4847,9 @@
         "name": "Max Property Group"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/mayacoin"
+        ],
         "name": "Maya Preferred 223"
       },
       {
@@ -4579,7 +4895,9 @@
         "name": "Melon"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/membrana-io"
+        ],
         "name": "Membrana"
       },
       {
@@ -4635,7 +4953,15 @@
         "name": "Metal"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/primeradiant"
+        ],
+        "name": "MetaMoneyMarket"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/mvs-org"
+        ],
         "name": "Metaverse ETP"
       },
       {
@@ -4647,6 +4973,12 @@
       {
         "githubLinks": [],
         "name": "MEX"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/mexclife"
+        ],
+        "name": "MEXC Token"
       },
       {
         "githubLinks": [
@@ -4671,12 +5003,18 @@
         "name": "MidasProtocol"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/mindexcoin"
+        ],
         "name": "Mindexcoin"
       },
       {
         "githubLinks": [],
         "name": "MINDOL"
+      },
+      {
+        "githubLinks": [],
+        "name": "MineBee"
       },
       {
         "githubLinks": [
@@ -4705,6 +5043,10 @@
           "https://github.com/mixinmessenger"
         ],
         "name": "Mixin"
+      },
+      {
+        "githubLinks": [],
+        "name": "MixMarvel"
       },
       {
         "githubLinks": [
@@ -4753,6 +5095,10 @@
         "name": "Moeda Loyalty Points"
       },
       {
+        "githubLinks": [],
+        "name": "Molecular Future"
+      },
+      {
         "githubLinks": [
           "https://github.com/monacoinproject"
         ],
@@ -4799,7 +5145,9 @@
         "name": "Monolith"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/mooncoincore"
+        ],
         "name": "Mooncoin"
       },
       {
@@ -4851,6 +5199,10 @@
           "https://github.com/mvlchain"
         ],
         "name": "MVL"
+      },
+      {
+        "githubLinks": [],
+        "name": "MX Token"
       },
       {
         "githubLinks": [
@@ -4998,6 +5350,22 @@
       },
       {
         "githubLinks": [
+          "https://github.com/nest-protocol"
+        ],
+        "name": "NEST"
+      },
+      {
+        "githubLinks": [],
+        "name": "Nestree"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/netboxglobal"
+        ],
+        "name": "Netbox Coin"
+      },
+      {
+        "githubLinks": [
           "https://github.com/neufund"
         ],
         "name": "Neumark"
@@ -5021,6 +5389,10 @@
         "name": "Neurotoken"
       },
       {
+        "githubLinks": [],
+        "name": "Neutral Dollar"
+      },
+      {
         "githubLinks": [
           "https://github.com/news-chain"
         ],
@@ -5039,7 +5411,9 @@
         "name": "Newton Coin Project"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/nyecoin"
+        ],
         "name": "NewYork Exchange"
       },
       {
@@ -5069,6 +5443,12 @@
           "https://github.com/nexusoft"
         ],
         "name": "Nexus"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/somish"
+        ],
+        "name": "Nexus Mutual"
       },
       {
         "githubLinks": [
@@ -5109,7 +5489,9 @@
         "name": "No BS Crypto"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/noia-network"
+        ],
         "name": "NOIA Network"
       },
       {
@@ -5129,6 +5511,10 @@
           "https://github.com/nperproject"
         ],
         "name": "NPER"
+      },
+      {
+        "githubLinks": [],
+        "name": "NSS Coin"
       },
       {
         "githubLinks": [],
@@ -5157,12 +5543,26 @@
         "name": "Numeraire"
       },
       {
+        "githubLinks": [
+          "https://github.com/nuonetwork"
+        ],
+        "name": "Nuo Network"
+      },
+      {
         "githubLinks": [],
         "name": "Nxt"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/oasiscityproject"
+        ],
         "name": "Oasis City"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/oathsio"
+        ],
+        "name": "OATH Protocol"
       },
       {
         "githubLinks": [],
@@ -5230,7 +5630,7 @@
       },
       {
         "githubLinks": [
-          "https://github.com/omise"
+          "https://github.com/omisego"
         ],
         "name": "OmiseGO"
       },
@@ -5369,6 +5769,10 @@
         "name": "OTCBTC Token"
       },
       {
+        "githubLinks": [],
+        "name": "OTOCASH"
+      },
+      {
         "githubLinks": [
           "https://github.com/ourcoin1"
         ],
@@ -5466,7 +5870,13 @@
         "githubLinks": [
           "https://github.com/paxosglobal"
         ],
-        "name": "Paxos Standard Token"
+        "name": "PAX Gold"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/paxosglobal"
+        ],
+        "name": "Paxos Standard"
       },
       {
         "githubLinks": [
@@ -5526,6 +5936,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/pegasyseng"
+        ],
+        "name": "PegaSys"
+      },
+      {
+        "githubLinks": [
           "https://github.com/coinwebfactory"
         ],
         "name": "PENG"
@@ -5547,7 +5963,9 @@
         "name": "Pepe Cash"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/perlin-network"
+        ],
         "name": "Perlin"
       },
       {
@@ -5611,7 +6029,9 @@
         "name": "PIVX"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/piction-protocol"
+        ],
         "name": "PIXEL"
       },
       {
@@ -5629,6 +6049,10 @@
       {
         "githubLinks": [],
         "name": "Plair"
+      },
+      {
+        "githubLinks": [],
+        "name": "PLANET"
       },
       {
         "githubLinks": [
@@ -5669,6 +6093,10 @@
           "https://github.com/playkey"
         ],
         "name": "Playkey"
+      },
+      {
+        "githubLinks": [],
+        "name": "Pledgecamp"
       },
       {
         "githubLinks": [
@@ -5715,6 +6143,12 @@
           "https://github.com/bitpopulous"
         ],
         "name": "Populous"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/poseidon-network"
+        ],
+        "name": "Poseidon Network"
       },
       {
         "githubLinks": [
@@ -5767,6 +6201,12 @@
           "https://github.com/prizmspace"
         ],
         "name": "PRIZM"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/probitexchange"
+        ],
+        "name": "ProBit Token"
       },
       {
         "githubLinks": [
@@ -5834,6 +6274,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/publishprotocol"
+        ],
+        "name": "PUBLISH"
+      },
+      {
+        "githubLinks": [
           "https://github.com/publyto"
         ],
         "name": "PUBLYTO Token"
@@ -5881,7 +6327,9 @@
         "name": "Q DAO Governance token v1.0"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/qiibee"
+        ],
         "name": "qiibee"
       },
       {
@@ -6184,6 +6632,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/rupiah-token"
+        ],
+        "name": "Rupiah Token"
+      },
+      {
+        "githubLinks": [
           "https://github.com/ryo-currency"
         ],
         "name": "Ryo Currency"
@@ -6282,6 +6736,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/sealchain-project"
+        ],
+        "name": "Sealchain"
+      },
+      {
+        "githubLinks": [
           "https://github.com/seeleteam"
         ],
         "name": "Seele"
@@ -6341,7 +6801,9 @@
         "name": "Serve"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/sessia-llc"
+        ],
         "name": "Sessia"
       },
       {
@@ -6349,6 +6811,12 @@
           "https://github.com/mware-solutions"
         ],
         "name": "Sether"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/setprotocol"
+        ],
+        "name": "Set Protocol"
       },
       {
         "githubLinks": [
@@ -6459,6 +6927,10 @@
         "name": "Simmitri"
       },
       {
+        "githubLinks": [],
+        "name": "Simone"
+      },
+      {
         "githubLinks": [
           "https://github.com/d-ost",
           "https://github.com/mosaicdao",
@@ -6563,7 +7035,9 @@
         "name": "SmartMesh"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/anonymousdo"
+        ],
         "name": "smARTOFGIVING"
       },
       {
@@ -6579,6 +7053,12 @@
           "https://github.com/snapparazzi"
         ],
         "name": "SnapCoin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/snaxfoundation"
+        ],
+        "name": "Snax"
       },
       {
         "githubLinks": [],
@@ -6651,6 +7131,10 @@
         "name": "SounDAC"
       },
       {
+        "githubLinks": [],
+        "name": "Soverain"
+      },
+      {
         "githubLinks": [
           "https://github.com/sp8de"
         ],
@@ -6709,7 +7193,9 @@
         "name": "SPIDER VPS"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/spiking-io"
+        ],
         "name": "Spiking"
       },
       {
@@ -6739,6 +7225,12 @@
       {
         "githubLinks": [],
         "name": "STACS"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/stakedllc"
+        ],
+        "name": "Staked"
       },
       {
         "githubLinks": [
@@ -6803,7 +7295,9 @@
         "name": "Stellar"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/stellarclassics"
+        ],
         "name": "Stellar Classic"
       },
       {
@@ -6870,6 +7364,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/streamitcoin"
+        ],
+        "name": "Streamit Coin"
+      },
+      {
+        "githubLinks": [
           "https://github.com/streamr-dev"
         ],
         "name": "Streamr DATAcoin"
@@ -6930,6 +7430,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/swipewallet"
+        ],
+        "name": "Swipe"
+      },
+      {
+        "githubLinks": [
           "https://github.com/swissborg"
         ],
         "name": "SwissBorg"
@@ -6973,6 +7479,10 @@
         "name": "TAGZ"
       },
       {
+        "githubLinks": [],
+        "name": "Taklimakan Network"
+      },
+      {
         "githubLinks": [
           "https://github.com/tarushtech"
         ],
@@ -6983,6 +7493,10 @@
           "https://github.com/etherflyer"
         ],
         "name": "Tcash"
+      },
+      {
+        "githubLinks": [],
+        "name": "Tchain"
       },
       {
         "githubLinks": [
@@ -6999,6 +7513,12 @@
           "https://github.com/telcoin"
         ],
         "name": "Telcoin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/telos-foundation"
+        ],
+        "name": "Telos"
       },
       {
         "githubLinks": [
@@ -7027,7 +7547,9 @@
         "name": "Ternio"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/terra-project"
+        ],
         "name": "Terra"
       },
       {
@@ -7109,7 +7631,9 @@
         "name": "ThingsOperatingSystem"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/thorchain"
+        ],
         "name": "THORChain"
       },
       {
@@ -7205,6 +7729,10 @@
           "https://github.com/tokiateam"
         ],
         "name": "Tokia"
+      },
+      {
+        "githubLinks": [],
+        "name": "Tokoin"
       },
       {
         "githubLinks": [],
@@ -7315,7 +7843,9 @@
         "name": "Trinity Network Credit"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/thetripio"
+        ],
         "name": "Tripio"
       },
       {
@@ -7335,6 +7865,12 @@
           "https://github.com/truechain"
         ],
         "name": "TrueChain"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/TrueFeedBack"
+        ],
+        "name": "TrueFeedBack"
       },
       {
         "githubLinks": [
@@ -7367,7 +7903,9 @@
         "name": "Turtlecoin"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/typerium"
+        ],
         "name": "Typerium"
       },
       {
@@ -7454,7 +7992,17 @@
       },
       {
         "githubLinks": [],
+        "name": "UNI COIN"
+      },
+      {
+        "githubLinks": [],
         "name": "Unification"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/uniswap"
+        ],
+        "name": "Uniswap"
       },
       {
         "githubLinks": [
@@ -7484,6 +8032,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/uosnetwork"
+        ],
+        "name": "UOS Network"
+      },
+      {
+        "githubLinks": [
           "https://github.com/upfiring"
         ],
         "name": "Upfiring"
@@ -7495,7 +8049,9 @@
         "name": "UpToken"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/uranusblockstack"
+        ],
         "name": "Uranus"
       },
       {
@@ -7511,7 +8067,9 @@
         "name": "USD//Coin"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/oklink"
+        ],
         "name": "USDK"
       },
       {
@@ -7581,6 +8139,12 @@
           "https://github.com/vegawallet"
         ],
         "name": "VegaWallet Token"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/veilco"
+        ],
+        "name": "Veil"
       },
       {
         "githubLinks": [
@@ -7680,6 +8244,18 @@
       },
       {
         "githubLinks": [
+          "https://github.com/videocoin"
+        ],
+        "name": "VideoCoin"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/vidy"
+        ],
+        "name": "VIDY"
+      },
+      {
+        "githubLinks": [
           "https://github.com/vikkyteam"
         ],
         "name": "VikkyToken"
@@ -7691,7 +8267,9 @@
         "name": "VINChain"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/vindaxcom"
+        ],
         "name": "VinDax Coin"
       },
       {
@@ -7803,6 +8381,10 @@
         "name": "Waves"
       },
       {
+        "githubLinks": [],
+        "name": "Wavesbet"
+      },
+      {
         "githubLinks": [
           "https://github.com/waxio"
         ],
@@ -7871,6 +8453,10 @@
           "https://github.com/thewhitecompany"
         ],
         "name": "White Standard"
+      },
+      {
+        "githubLinks": [],
+        "name": "Whole Network"
       },
       {
         "githubLinks": [
@@ -7976,16 +8562,32 @@
       },
       {
         "githubLinks": [
+          "https://github.com/xcryptclub"
+        ],
+        "name": "xCrypt Token"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/poanetwork"
+        ],
+        "name": "XDAI"
+      },
+      {
+        "githubLinks": [
           "https://github.com/xdna-core"
         ],
         "name": "XDNA"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/xenoverseio"
+        ],
         "name": "Xenoverse"
       },
       {
-        "githubLinks": [],
+        "githubLinks": [
+          "https://github.com/xeuro"
+        ],
         "name": "xEURO"
       },
       {
@@ -8011,6 +8613,10 @@
           "https://github.com/xovercoin"
         ],
         "name": "XOVBank"
+      },
+      {
+        "githubLinks": [],
+        "name": "X-power Chain"
       },
       {
         "githubLinks": [
@@ -8052,6 +8658,12 @@
       },
       {
         "githubLinks": [],
+        "name": "Yobit Token"
+      },
+      {
+        "githubLinks": [
+          "https://github.com/yottachain"
+        ],
         "name": "YottaChain"
       },
       {
@@ -8136,6 +8748,12 @@
       },
       {
         "githubLinks": [
+          "https://github.com/hellozeronet"
+        ],
+        "name": "ZeroNet"
+      },
+      {
+        "githubLinks": [
           "https://github.com/zeus-shield"
         ],
         "name": "Zeusshield"
@@ -8181,12 +8799,6 @@
           "https://github.com/zperteam"
         ],
         "name": "ZPER"
-      },
-      {
-        "githubLinks": [
-          "https://github.com/PegaSysEng"
-        ],
-        "name": "PegaSys"
       },
       {
         "githubLinks": [],
