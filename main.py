@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 import os, json, sys
 
+# database
+import sqlite3
+from sqlite3 import Error
+
+
 import pprint
 import requests
 from github import Github
 from github.GithubException import UnknownObjectException
 from gitterpy.client import GitterClient
 
+# multitreading:
+import threading
+import time
+
+# debugging:
 import pdb
 
 # access tokens
@@ -14,14 +24,43 @@ GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
 
 g = Github(GITHUB_TOKEN)
 
-ORGS = []
-# PROJECTS = {}
 PROJECTS = eval(open("github-projects-list.json").read())
 LICENSES = eval(open("licenses").read())
 
 # test data and real data
 with open('github-projects-list.json') as complete_list: 
     real_data = json.load(complete_list)
+
+#db connection
+def create_connection(db_file):
+    """
+    create a database connection to the SQLite database
+        specified by db_file
+    :param db_file: database file
+    :return: Connection object or None
+    """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+        return conn
+    except Error as e:
+        print(e)
+ 
+    return conn
+
+
+def create_table(conn, create_table_sql):
+    """ create a table from the create_table_sql statement
+    :param conn: Connection object
+    :param create_table_sql: a CREATE TABLE statement
+    :return:
+    """
+    try:
+        c = conn.cursor()
+        c.execute(create_table_sql)
+    except Error as e:
+        print(e)
+
 
 test_data = '''
 {
@@ -121,8 +160,22 @@ no_license_count = 0
 all_licesnses = []
 print(license_count)
 
+# number_loop = 1
+# current_loop = 1
+# while current_loop < 3:
+#     filename = 'results{number_loop}.text'
+#     with open(filename, 'w') as f:
+#         for item in all_licesnses:
+#             f.write(f"{item}\n")
+#     current_loop += 1
+# number_loop += 1
+
+# with open(filename, 'w') as f:
+#     for item in all_licesnses:
+#         f.write(f"{item}\n")
+
 for project in project_list:
-    name = project['name'] 
+    name = project['name']
     print(name)
     # try org
     try:
@@ -190,10 +243,6 @@ print(license_count)
 print(no_license_count)
 
 pprint.pprint(all_licesnses)
-
-with open('results.txt', 'w') as f:
-    for item in all_licesnses:
-        f.write(f"{item}\n")
 
 
 
