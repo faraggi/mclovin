@@ -16,7 +16,7 @@ g = Github(GITHUB_TOKEN)
 
 ORGS = []
 # PROJECTS = {}
-PROJECTS = eval(open("test.json").read())
+PROJECTS = eval(open("github-projects-list.json").read())
 LICENSES = eval(open("licenses").read())
 
 # test data and real data
@@ -190,6 +190,10 @@ print(license_count)
 print(no_license_count)
 
 pprint.pprint(all_licesnses)
+
+with open('results.txt', 'w') as f:
+    for item in all_licesnses:
+        f.write(f"{item}\n")
 
 
 
