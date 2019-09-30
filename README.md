@@ -2,6 +2,8 @@
 
 Get data on open source licenses from a list of github repos.
 
+![](https://i.imgur.com/XNCCB2Y.jpg)
+
 ## Install
 export GITHUB_TOKEN="{}"
 
