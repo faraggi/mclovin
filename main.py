@@ -63,7 +63,7 @@ def get_type(user):
 def get_license_info(name, repo):
     try:
         license = repo.get_license()
-        license = repo.get_license().license
+        license = license.license
         license_info = (name, repo.name, license.spdx_id)
     except UnknownObjectException:
         logging.warning(f'UnknownObjectException - {name}: {repo.name} no license')

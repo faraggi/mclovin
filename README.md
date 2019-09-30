@@ -16,3 +16,4 @@ TODO:
 - ~~change name~~
 - ~~rate limit~~
 - process data?
+- multithreading
