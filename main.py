@@ -3,6 +3,7 @@ import logging, json, os, sys
 
 from github import Github
 from github.GithubException import UnknownObjectException
+from github.GithubException import GithubException
 
 # database
 # TODO
@@ -16,7 +17,7 @@ import time
 from datetime import datetime, timedelta
 
 # debugging:
-# import pdb
+import pdb
 
 # logging level. change to DEBUG, WARNING, INFO, etc for different levels
 # logger = logging.getLogger('dev')
@@ -59,27 +60,41 @@ ALL_LICENSES = []
 def get_type(user):
     return user.type
 
+def get_license_info(name, repo):
+    try:
+        license = repo.get_license()
+        license = repo.get_license().license
+        license_info = (name, repo.name, license.spdx_id)
+    except UnknownObjectException:
+        logging.warning(f'UnknownObjectException - {name}: {repo.name} no license')
+        license_info = (name, repo.name, 0)
+    except GithubException:
+        logging.warning(f'GithubException - {name}: {repo.name} UNACCESSIBLE!')
+        license_info = (name, repo.name, "UNACCESSIBLE")
+    return license_info
+
+def count_licenses(name, license_info, ALL_LICENSES, LICENSE_COUNT, NO_LICENSE_COUNT, repo):
+    # pdb.set_trace()
+    try:
+        license
+    except NameError:
+        ALL_LICENSES.append(license_info)
+        NO_LICENSE_COUNT += 1
+        logging.info(f'({name}, {repo.name}, 0)')
+    else:
+        ALL_LICENSES.append(license_info)
+        LICENSE_COUNT += 1
+        logging.info(license_info)
+
 def loop_through_repos(name, repo_list):
     global NO_LICENSE_COUNT
     global LICENSE_COUNT
     global ALL_LICENSES
+
     for repo in repo_list:
-        try:
-            license = repo.get_license()
-            license = repo.get_license().license
-            license_info = (name, repo.name, license.spdx_id)
-        except UnknownObjectException:
-            license_info = (name, repo.name, 0)
-        try:
-            license
-        except NameError:
-            ALL_LICENSES.append(license_info)
-            NO_LICENSE_COUNT += 1
-            logging.info(f'({name}, {repo.name}, 0)')
-        else:
-            ALL_LICENSES.append(license_info)
-            LICENSE_COUNT += 1
-            logging.info(f'({name}, {repo.name}, {license.spdx_id})')
+        print(name, repo)
+        license_info = get_license_info(name, repo)
+        count_licenses(name, license_info, ALL_LICENSES, LICENSE_COUNT, NO_LICENSE_COUNT, repo)
         logging.info(LICENSE_COUNT)
         write_to_file(license_info)
 
