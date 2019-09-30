@@ -12,7 +12,8 @@ from github.GithubException import UnknownObjectException
 # multitreading:
 # TODO
 # import threading
-# import time
+import time
+from datetime import datetime, timedelta
 
 # debugging:
 # import pdb
@@ -49,12 +50,19 @@ def clean_up(list):
 
 # print(project_list)
 PROJECT_LIST = clean_up(project_list)
+NO_LICENSE_COUNT = 0
+LICENSE_COUNT = 0
+RATE_LIMIT_MINIMUM = 30
+ALL_LICENSES = []
 
 
 def get_type(user):
     return user.type
 
 def loop_through_repos(name, repo_list):
+    global NO_LICENSE_COUNT
+    global LICENSE_COUNT
+    global ALL_LICENSES
     for repo in repo_list:
         try:
             license = repo.get_license()
@@ -79,12 +87,29 @@ def get_name(project):
     return project['name']
 
 def write_to_file(item):
+    item = ', '.join(map(str, item))
     with open('results.csv', 'a') as f:
         f.write(f'{item} \n')
+
+def check_rate_limit():
+    # rate limit for github API limits
+    global RATE_LIMIT_MINIMUM
+    if g.rate_limiting[0] < RATE_LIMIT_MINIMUM:
+        # wait until limit_resettime if remaining calls are few
+        while time.time() < g.rate_limiting_resettime:
+            logging.warning('Waiting 2m for Rate Limit to top off...')
+            logging.warning(f'Current rate_limiting: {g.rate_limiting}')
+            readable_time = datetime.utcfromtimestamp(g.rate_limiting_resettime).strftime('%Y-%m-%d %H:%M:%S')
+            logging.warning(f'Next reset at: {readable_time}')
+            # readable_remaining_time = g.rate_limiting_resettime - time.time()
+            # readable_remaining_time = datetime.utcfromtimestamp(readable_remaining_time).strftime('%Y-%m-%d %H:%M:%S')
+            # logging.warning(f'Time Remaining: {readable_time}')
+            time.sleep(120)
 
 def main_loop():
     with open('results.csv', 'w') as f:
         # pdb.set_trace()
+        check_rate_limit()
         for project in PROJECT_LIST:
             name = get_name(project)
             logging.info(f'Name: {name}')
