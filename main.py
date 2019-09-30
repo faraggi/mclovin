@@ -170,9 +170,9 @@ print(license_count)
 #     current_loop += 1
 # number_loop += 1
 
-# with open(filename, 'w') as f:
-#     for item in all_licesnses:
-#         f.write(f"{item}\n")
+with open(filename, 'w') as f:
+    for item in all_licesnses:
+        f.write(f"{item}\n")
 
 for project in project_list:
     name = project['name']
